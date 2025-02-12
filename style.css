@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(146, 147, 178);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#tahoma {
+    font-family: Tahoma, sans-serif;
+}
+
+.main-container{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: white;
+    width: 550px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 0px 0px 500px 30px rgba(203, 204, 230);
+
+}
+.auto-text{
+    padding-top: 10px;
+    height: 40px;
+    font-size: 25px;
+}
+.input-area{
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    /*background-color: aqua;*/
+    height: 34px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+
+.input_area-text{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 3px;
+    color: rgb(103, 103, 103);
+}
+
+.input-area:focus{
+    border: none;
+    outline: none;
+}
+
+.input-container{
+
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 194);
+}
+.input-container1{
+
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 194, 194);
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+.input-container1_field{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+h5{
+    background-color: aqua;
+}
+.view-button{
+
+    width: 50px;
+}
+.view-button_button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    /* background: url('https://jmp.sh/s/RW51ZqYH4MVeeZIcU3fG');
+    background-size: 100% 100%; */
+
+}
+
+.auth-button{
+    padding-top: 10px;
+}
+
+.auth-button_button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(151, 151, 255);
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0px 0px 10px 0px rgb(128, 128, 215);
+
+
+}
